@@ -1,0 +1,103 @@
+body {
+    background-color: beige;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    line-height: 0.3
+  }
+h2 {
+  font-size: 2rem;
+  margin-top: 25px;
+  line-height: 0.3
+}
+h3 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  line-height: 0.3
+}
+  span {
+    line-height: 0;
+  }
+  p {
+    line-height: 0;
+  }
+p.CTA {
+  font-weight: bold;
+}
+  li {
+    line-height: 1.1;
+  }  
+
+  div {
+    min-width: 375px;
+    text-align: center;
+  }
+  
+  
+.foto{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.foto img {
+    border-radius: 70%;
+}
+
+.name{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.aboutME {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+.links {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*display: block; */
+    /* margin: 10px; */
+    padding: 10px 20px;
+    /*border: 2px solid #000;*/ /*No se como ponerlo a cada boton con un tono mas oscuro respecto a su bkgd-c, desde .links*/
+    border-radius: 10px;
+    font-size: 1.2rem;
+    /*color: #000;*/ /*No se como ponerlo a cada boton con un tono mas oscuro respecto a su bkgd-c, desde .links*/
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+    .btnTw {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: rgb(29, 155, 240);
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .btnLi {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #0a66c2;
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .btnCv {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+      }
+      
+    
+      .btn:hover {
+        background-color: #000;
+        color: #fff;
+      }
+      
